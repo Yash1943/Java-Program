@@ -1,0 +1,26 @@
+package Javaprogram;
+import java.util.Scanner;
+
+public class Javaprogram {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter the no of subject");
+		n =scan.nextInt();
+		int n;
+		int Mark[]=new int[n];
+		for(int i=0;i<n;i++) {
+			System.out.println("Enter the marks" +(i+1)+":");
+			Mark[i] =scan.nextInt();
+		}
+		int total =0;
+		for(int i=0;i<n;i++) {
+			total =(total/n);
+		}
+		float percentage;
+		percentage =(total/n);
+		System.out.println(+percentage);
+
+	}
+
+}
